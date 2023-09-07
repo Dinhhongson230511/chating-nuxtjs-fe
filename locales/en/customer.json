@@ -1,0 +1,12 @@
+{
+  "title": "人数",
+  "input": {
+    "adult": "大人",
+    "child": "小人",
+    "only_infant": "席のみ幼児",
+    "course_number_of_people": "コース提供人数：",
+    "total_guest": "お客様合計人数：",
+    "number_tour_conductor": "添乗員人数",
+    "d_g": "D/G人数"
+  }
+}

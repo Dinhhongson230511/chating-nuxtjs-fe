@@ -1,0 +1,29 @@
+{
+  "config_page": {
+    "title_create": "お問合せフォーム入力"
+  },
+  "form": {
+    "name": {
+      "title": "お名前"
+    },
+    "company_name": {
+      "title": "企業名"
+    },
+    "department_name": {
+      "title": "部署名"
+    },
+    "url": {
+      "title": "企業URL"
+    },
+    "phone": {
+      "title": "電話番号"
+    },
+    "description": {
+      "title": "お問合せ内容",
+      "placeholder": "お問合せ内容をご記入ください"
+    },
+    "button": {
+      "submit": "確認画面へ進む"
+    }
+  }
+}

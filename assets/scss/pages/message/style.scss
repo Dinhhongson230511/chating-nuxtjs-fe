@@ -1,0 +1,271 @@
+@import "/assets/scss/common/mixin";
+
+.chat-container {
+  display: grid;
+  grid-template-columns: 352px auto;
+  height: calc(100vh - 71px - 71px); // 71px is height of header and footer
+}
+
+.chat-left {
+  height: calc(100vh - 71px - 71px);
+  border: 1px solid $color-gray-300;
+  border-top: 0;
+
+  .chat-search {
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 75% auto;
+    border-bottom: 1px solid $color-gray-300;
+
+    input {
+      border-radius: 4px 0px 0px 4px;
+    }
+  }
+
+  .tab-content {
+    height: calc(
+      100vh - 71px - 71px - 41px - 81px
+    ); // 71px is height of header and footer, 41px is header of list message, 81px is section search message
+    overflow: auto;
+  }
+
+  .tab-all {
+    padding: 16px;
+    border-bottom: 1px solid $color-gray-300;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &-left {
+      .title {
+        overflow: hidden;
+        color: $color-gray-900;
+        text-overflow: ellipsis;
+        font: normal 500 16px/19.2px $font-family-notoSanJp;
+      }
+
+      .message-preview {
+        @include three-dot(1, 100%);
+        color: $color-orange-600;
+        font: normal 400 14px/21px $font-family-notoSanJp;
+      }
+    }
+
+    &-right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: space-between;
+
+      .time {
+        color: $color-orange-600;
+        margin-bottom: 4px;
+        font: normal 400 10px/12px $font-family-notoSanJp;
+      }
+
+      .message-unread {
+        padding: 4px 8px;
+        border-radius: 4px;
+        background-color: $color-orange-500;
+        color: $color-white;
+        font: normal 700 12px/12px $font-family-notoSanJp;
+      }
+    }
+
+    &.text-read {
+      .message-preview {
+        color: $color-gray-600 !important;
+      }
+
+      .time {
+        color: $color-gray-600 !important;
+      }
+    }
+  }
+}
+
+.btn-orange {
+  background-color: $color-orange-500;
+  border-radius: 0 4px 4px 0;
+  color: $color-white;
+}
+
+.btn-group-details {
+  border-radius: 4px;
+  background: $color-orange-200;
+  color: $color-orange-500;
+}
+
+.chat-right {
+  height: calc(100vh - 71px - 71px); // 71px is height of header and footer
+  position: relative;
+
+  &-header {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid $color-gray-300;
+    position: sticky;
+    top: 71px;
+    z-index: 1;
+  }
+
+  &-body {
+    padding: 16px;
+    height: 73%;
+
+    .time-begin-chat {
+      color: $color-gray-600;
+      text-align: center;
+      font: normal 400 12px/18px $font-family-notoSanJp;
+    }
+
+    .chat-body {
+      margin-top: 16px;
+
+      &-partner {
+        margin-bottom: 16px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;
+
+        &-avatar {
+          border-radius: 50%;
+
+          img {
+            border-radius: 50%;
+          }
+        }
+
+        &-content {
+          width: 70%;
+        }
+
+        &-content-message {
+          display: inline-block;
+          border-radius: 16px 16px 16px 0px;
+          background: $color-gray-300;
+          padding: 10px;
+        }
+      }
+
+      &-auth {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+
+        &-content {
+          width: 70%;
+          display: flex;
+          justify-content: flex-end;
+          align-items: flex-end;
+          flex-direction: column;
+        }
+
+        .text-orange {
+          .title {
+            color: $color-orange-500 !important;
+          }
+        }
+
+        &-content-message {
+          display: inline-block;
+          border-radius: 16px 16px 0 16px;
+          background: $color-orange-500;
+          color: $color-white;
+          padding: 10px;
+        }
+      }
+
+      &-attachments {
+        margin-bottom: 8px;
+
+        .attachment-icon {
+          width: 250px;
+          padding: 10px 16px;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          border-radius: 8px;
+          border: 1px solid $color-gray-400;
+          background: $color-white;
+
+          div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 4px;
+          }
+
+          .title {
+            color: $color-black;
+            font: normal 400 16px/24px $font-family-notoSanJp;
+          }
+
+          .size {
+            color: $color-gray-700;
+            font: normal 400 12px/18px $font-family-notoSanJp;
+          }
+        }
+      }
+    }
+  }
+
+  .box-typing {
+    position: sticky;
+    bottom: 71px;
+    border: 1px solid $color-gray-300;
+    border-left: 0;
+    border-right: 0;
+    background: var(--hit-box, rgba(255, 255, 255, 0));
+    z-index: 1;
+    padding: 16px;
+    width: calc(
+      100vw - 353px - 367px
+    ); // 353px is width of siderbar in menu, 367px is width of list message
+
+    .attachment-file {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+
+      .btn-attachment {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        button {
+          border-radius: 3.2px;
+          border: 1px solid $color-gray-600;
+          background: var(--hit-box, rgba(255, 255, 255, 0));
+          display: flex;
+          width: 31px;
+          height: 31px;
+          padding: 4px 8px;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          flex-shrink: 0;
+          margin-right: 8px;
+        }
+
+        span {
+          color: $color-gray-600;
+          font: normal 400 12px/18px $font-family-notoSanJp;
+        }
+      }
+    }
+  }
+}
+
+.nav-tabs {
+  background: rgba(255, 255, 255, 0);
+
+  .nav-link {
+    color: $color-orange-500;
+    border-radius: 0;
+    border-top: none;
+  }
+}

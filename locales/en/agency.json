@@ -1,0 +1,15 @@
+{
+  "title": "title",
+  "update": {
+    "title": ""
+  },
+  "common": {
+    "info": {
+      "title": "",
+      "name": "",
+      "name_of_person": "",
+      "tel": "",
+      "project_start_date": ""
+    }
+  }
+}

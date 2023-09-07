@@ -1,0 +1,44 @@
+{
+  "delete": "Delete",
+  "sidebar": {
+    "favorite_store": "Favorite store",
+    "current_reservation": "Current reservation",
+    "reservation_list": "Reservations",
+    "favorite_store_list": "Favorite store",
+    "groups": "Groups",
+    "tours": "Tours",
+    "messages": "Messages",
+    "about_list": "About us",
+    "accounts": "Accounts",
+    "change_password": "Password change",
+    "setting_noti": "Settings"
+  },
+  "header": {
+    "search": "Store search",
+    "reservation_list": "Reservations",
+    "one_mind_list": "Be on one's mind! list"
+  },
+  "footer": {
+    "diameter_management": "Diameter management",
+    "management_office": "Management office",
+    "business_content": "Company profile",
+    "copyright": "Copyright (c) 2023 HARE CO.,LTD All Right Reserve",
+    "company_profile": "Business content"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "my_page": "My page"
+  },
+  "search": {
+    "title": "Search store",
+    "placeholder": {
+      "area": "エリア・駅 [例:銀座、渋谷]",
+      "date": "7月12日(水)",
+      "time": "1時",
+      "gerne": "料理ジャンル",
+      "category": "こだわり",
+      "key_word": "コース名、店舗名",
+      "count_people": "２名"
+    }
+  }
+}

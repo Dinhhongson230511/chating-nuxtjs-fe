@@ -1,0 +1,47 @@
+{
+  "title": "お気に入り店舗",
+  "btn_list_store": "リスト表示",
+  "breadcrumb_page": "お気に入り店舗",
+  "member_favorite": "会員お気に入り",
+  "my_favorite": "自分お気に入り",
+  "view_all": "すべて見る",
+  "advanced_order": "詳細予約",
+  "btn_map_store": "マップ表示",
+  "store_not_found": "条件にあてはまる店舗がありません",
+  "detail": {
+    "title": {
+      "layout_diagram": "レイアウト図",
+      "free_word": "フリーワード",
+      "intro_food": "コースを紹介する",
+      "info_basic": "基本情報",
+      "comment": "全社のコメント",
+      "business_hour": "営業時間",
+      "max_accept_people": "受け入れ最大人数：",
+      "parking_lot": "駐車場（大型バス)",
+      "course": "このお店のコース"
+    },
+    "placeholder": {
+      "comment": "コメントを入力してください",
+      "number_people": "選択する"
+    },
+    "address": "住所",
+    "boarding_place": "乗降場所",
+    "phone": "電話番号",
+    "fax": "FAX",
+    "business_hour": "営業時間",
+    "parking": "駐車場",
+    "max_people": "受け入れ最大人数: ",
+    "seat_type": "席タイプ",
+    "cancellation_charge": "キャンセル料",
+    "store_note": "店舗注意事項",
+    "budget": "予算",
+    "genre": "ジャンル",
+    "button": {
+      "comment": "コメント",
+      "confirm_booking": "予約を確定する",
+      "messages": "店舗と相談",
+      "heart": "お気に入り"
+    },
+    "input_people": "人数"
+  }
+}

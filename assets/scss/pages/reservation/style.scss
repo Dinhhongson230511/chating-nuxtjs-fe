@@ -1,0 +1,215 @@
+@import "/assets/scss/common/mixin";
+
+.btn-tags {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+
+  .btn_check {
+    border-radius: 4px;
+    padding: 7px 14px;
+    height: 38px;
+    min-width: 166px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+
+    img {
+      margin-right: 10px;
+    }
+
+    .number {
+      font: normal 700 12px/100% $font-family-noto-sans-bold;
+      border-radius: 100px;
+      padding: 4.2px 7.8px;
+    }
+  }
+
+  .requesting {
+    background-color: $color-orange-100;
+
+    span {
+      color: $color-orange-700;
+    }
+
+    .number {
+      background: $color-orange-500;
+      color: $color-white;
+    }
+  }
+
+  .confirmed_reservation {
+    background-color: $color-orange-100;
+
+    span {
+      color: $color-orange-700;
+    }
+
+    .number {
+      background: $color-orange-500;
+      color: $color-white;
+    }
+  }
+
+  .completion {
+    background-color: $color-blue-100;
+
+    span {
+      color: $color-blue-700;
+    }
+
+    .number {
+      background: $color-blue-500;
+      color: $color-white;
+    }
+  }
+
+  .cancel {
+    background-color: $color-theme-danger-background;
+
+    span {
+      color: $color-theme-danger-text;
+    }
+
+    .number {
+      background: $color-theme-danger;
+      color: $color-white;
+    }
+  }
+}
+
+.filter-reservation {
+  display: grid;
+  grid-template-columns: auto 20% 320px 320px;
+  gap: 8px;
+  align-items: start;
+
+  .division {
+    select {
+      margin-top: 10px;
+    }
+  }
+
+  .date-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    .datepicker {
+      margin-top: 0 !important;
+    }
+
+    input {
+      min-width: 100%;
+    }
+
+    img {
+      margin: auto auto 24px auto;
+    }
+  }
+
+  .number_people {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    .input_people {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 5px;
+
+      .v-select {
+        width: 100%;
+      }
+
+      .input-group-text {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+    }
+  }
+
+  img {
+    margin-bottom: 24px;
+  }
+
+  .area_prefecture {
+    .vs__selected {
+      margin-bottom: 4px;
+    }
+
+    .vs__search,
+    .vs__search:focus {
+      margin: 0;
+    }
+
+    .vs__clear {
+      margin-bottom: 4px;
+    }
+
+    .vs--single.vs--open {
+      .vs__selected {
+        top: 2px;
+      }
+    }
+  }
+
+  .btn_submit {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    .btn-search.btn-reset {
+      margin-left: 10px;
+      background: $color-white;
+      color: $color-theme-secondary;
+      border: 1px solid $color-theme-secondary;
+    }
+    .btn-search {
+      min-height: 38px;
+      width: fit-content;
+      padding: 6px 12px;
+      border-radius: 4px;
+      border: 1px solid $color-theme-primary;
+      background: $color-theme-primary;
+      color: $color-white;
+    }
+  }
+}
+.filter-reservation:not(:first-child) {
+  grid-template-columns: repeat(1, 1fr) auto;
+}
+
+.reservation-box-info {
+  .row:not(:last-child) {
+    border-bottom: 1px solid $color-gray-300;
+  }
+}
+
+.text-block {
+  white-space: pre-line;
+}
+
+.reservation-calendar .title {
+  margin-bottom: 0;
+}
+
+.reservation-calendar .calendar-date {
+  padding: 5px;
+  border-right: 1px solid $color-gray-200;
+}
+
+.btn-list-reservations {
+  border-radius: 4px;
+  border: 1px solid $color-orange-500;
+  background: $color-orange-500;
+  cursor: pointer;
+  color: $color-white;
+  display: inline-block;
+  padding: 6px 12px;
+}

@@ -1,0 +1,28 @@
+{
+  "title": "title",
+  "slide_store": {
+    "title": "おすすめレストラン"
+  },
+  "btn_list_store": "リスト表示",
+  "btn_map_store": "マップ表示",
+  "store_detail": "店舗詳細",
+  "search": {
+    "roomSeatTypes": "個室＆席タイプ",
+    "smoking": {
+      "title": "煙草",
+      "no": "禁煙",
+      "yes": "喫煙",
+      "areas": "分煙"
+    },
+    "parking": {
+      "title": "駐車場",
+      "yes": "有り",
+      "no": "無し"
+    },
+    "no_limit": "コース単価",
+    "no_lower_limit": "コース単価",
+    "allergy_friendly": "アレルギー対応",
+    "dietary_restriction": "食事制限",
+    "time": "時"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "title": "予約画面",
+  "card": {
+    "reservation_info": "予約情報",
+    "food_info": "コース情報",
+    "tour_conductor_info": "添乗員情報",
+    "method_of_payment": "支払い方法",
+    "tour_meals": "添乗員・D/G食事",
+    "request_and_comment": "ご要望・コメント",
+    "order_newest": "の予約一覧",
+    "payment_fee": "手数料対象",
+    "payment_free": "手数料対象外",
+    "group_register": "団体登録",
+    "left": {
+      "form": {
+        "name_store": "店舗名",
+        "customer": "団体",
+        "number_people": "人数",
+        "reservation_date": "予約日時",
+        "reservation_time": "予約時間",
+        "food_name": "コース名（手数料対象）",
+        "sub_food": "サブコース（手数料対象)",
+        "drink": "飲み放題（手数料対象外)",
+        "add_food_request": "当日追加（手数料対象外）",
+        "number_separate_meal": "同席別食",
+        "number_meal_together": "別席同食",
+        "number_takeout_separate_dining": "テイクアウト別食",
+        "number_dining_together": "同席同食",
+        "conductor_name": "添乗員氏名",
+        "conductor_tel": "添乗員連絡先",
+        "payment": {
+          "food": "コース",
+          "drink": "飲み放題",
+          "add_on_request": "当日追加"
+        },
+        "d_g": {
+          "no": "無し",
+          "yes": "あり"
+        }
+      },
+      "placeholder": {
+        "name_store": "店舗名",
+        "customer": "団体を選択",
+        "number_people": "10",
+        "number_people_suggest": "団体を選択",
+        "reservation_date": "予約日を表示する",
+        "reservation_time": {
+          "from": "開始時間",
+          "to": "終了時間"
+        },
+        "main_food": "コース名を選択してください",
+        "sub_food": "サブコースを選択してください",
+        "drink": "サブコースを選択してください",
+        "add_food_request": "自由記述",
+        "number_of_people": "人数を記入",
+        "conductor_name": "氏名",
+        "conductor_tel": "000-000-0000",
+        "payment": {
+          "common": "支払い方法を選択して下さい",
+          "select_cp": "CP種類を選択してください"
+        }
+      },
+      "suggest": {
+        "max_people": "❖最大受入人数を超えています",
+
+        "payment": {
+          "food": "（メインコース、サブコース、添乗員同食）",
+          "drink": "（飲み放題、添乗員別食）"
+        }
+      },
+      "text_total_number": "合計数",
+      "text_total_placeholder": "別席同食 + 同席同食"
+    },
+    "right": {
+      "title": "支払料金",
+      "payment": {
+        "first": "手数料対象",
+        "two": "手数料対",
+        "main": "コースメイン",
+        "subject": {
+          "title_fee": "手数料対象",
+          "title_free": "手数料対",
+          "no_eat_together": "別席同食象外"
+        },
+        "width": {
+          "title": "手数料対",
+          "separate_meal": "同席別食"
+        },
+        "transfer_fee": "送客手数料（10％）",
+        "total": "合計"
+      },
+      "agree_submit": {
+        "title": "支払料金",
+        "sub_title": "次の事項に同意し、予約する",
+        "content": {
+          "first": "<span class='text_color'>利用規約、注意事項</span>および<span class='text_color'>キャンセルポリシー</span>",
+          "second": "株式会社一休は、お客様の個人情報、個人関連情報等を<span class='text_color'>個人情報保護方針</span>に従って取り扱います"
+        }
+      },
+      "btn_submit_confirm": "予約を確定する",
+      "btn_submit_create": "予約する",
+      "btn_back": "予約編集"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "header": {
+    "title": "マイアカウント",
+    "title_account_list": "アカウント一覧",
+    "btn": {
+      "unconfirmed": "未確定",
+      "confirmed": "確定",
+      "create": "新規登録",
+      "update": "編集",
+      "change_password": "パスワード強制変更"
+    }
+  },
+  "account_info": {
+    "first_name": "名",
+    "last_name": "姓",
+    "furigana_first_name": "名フリガナ",
+    "furigana_last_name": "姓フリガナ",
+    "tel": "TEL",
+    "fax": "FAX",
+    "email": "メール"
+  },
+  "filter": {
+    "keyword": {
+      "label": "キーワードから探す",
+      "placeholder": "担当者名・メール・電話番号"
+    }
+  },
+  "modal": {
+    "title": {
+      "create": "新規登録",
+      "update": "アカウント情報編集"
+    },
+    "upload_image": "プロフィール画像編集",
+    "placeholder": {
+      "last_name": "太郎",
+      "furigana_first_name": "スズキ",
+      "furigana_last_name": "タロウ",
+      "tel": "0123-4567-891",
+      "fax": "0123-45-6789",
+      "email": "tarou{'@'}gmail.com",
+      "first_name": "鈴木"
+    },
+    "btn": {
+      "create": "登録",
+      "update": "保存"
+    }
+  },
+  "table": {
+    "name": "名前",
+    "email": "メースアドレス",
+    "phone": "電話番号",
+    "edit": "編集",
+    "delete": "削除"
+  }
+}

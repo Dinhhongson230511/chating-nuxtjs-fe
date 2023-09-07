@@ -1,0 +1,29 @@
+{
+  "title": "メッセージ一覧",
+  "all": "すべて",
+  "myseft": "自分",
+  "before_book": "予約前",
+  "input_message_placeholder": "メッセージを入力してください",
+  "dedail_button": "団体詳細",
+  "send": "送信",
+  "breadcrumb_page": "チャンネル",
+  "key_word_placeholder": "店舗名，団体",
+  "user_store": "(担当者)",
+  "table": {
+    "channel_name": "チャンネル名",
+    "date": "日付"
+  },
+  "tab": {
+    "chat": "メッセージ",
+    "group": "団体詳細"
+  },
+  "btn": {
+    "all": "すべて",
+    "personal": "自分",
+    "order": "予約前",
+    "search": "検索"
+  },
+  "errors": {
+    "empty_message": "メッセージを入力してください"
+  }
+}

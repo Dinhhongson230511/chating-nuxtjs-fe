@@ -1,0 +1,401 @@
+@import "/assets/scss/common/mixin";
+
+.content-order {
+  width: 100%;
+  padding: 30px;
+
+  .title {
+    color: $color-gray-900;
+    font: normal 500 32px/38px $font-family-notoSanJp;
+    margin-bottom: 30px;
+
+    .btn-group-action {
+      width: 350px;
+
+      .btn-edit,
+      .btn-cancel {
+        width: 130px;
+      }
+      .btn-cancel {
+        background-color: $color-theme-danger;
+        border-color: $color-theme-danger;
+      }
+      .btn-chat {
+        width: 180px;
+        background-color: $color-orange-500;
+        border-color: $color-orange-500;
+      }
+    }
+  }
+  .title-control {
+    height: 38px;
+  }
+
+  .modal_custom {
+    .modal_dialog {
+      min-width: 1000px;
+    }
+  }
+}
+
+.mb-35 {
+  margin-bottom: 35px !important;
+}
+
+.order__content {
+  display: grid;
+  grid-template-columns: auto 30%;
+  gap: 30px;
+
+  &--right {
+    padding: 16px;
+    background-color: $color-white;
+    border-radius: 16px;
+    box-shadow: 0px;
+    height: fit-content;
+    padding: 24px;
+    box-shadow: 0px 16px 48px 0px rgba(0, 0, 0, 0.17);
+
+    .card_right {
+      &--title {
+        font: normal 700 20px/120% $font-family-notoSanJp;
+        color: $color-black;
+        margin-bottom: 24px;
+      }
+    }
+
+    .payment__item {
+      &--title {
+        font: normal 16px/120% $font-family-notoSanJp;
+        color: $color-black;
+      }
+
+      &--row {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        padding-top: 16px;
+        &_text {
+          font: normal 400 16px/150% $font-family-notoSanJp;
+          color: $color-theme-dark;
+          @include three-dot(1, 60%);
+        }
+
+        &_calculate {
+          font: normal 700 16px/150% $font-family-notoSanJp;
+          color: $color-gray-600;
+        }
+      }
+
+      &:last-child {
+        margin-top: 32px;
+      }
+    }
+
+    .transfer_fee {
+      display: flex;
+      justify-content: space-between;
+      grid-area: 10px;
+      padding-top: 24px;
+      padding-bottom: 16px;
+
+      &--text {
+        font: normal 400 16px/150% $font-family-notoSanJp;
+        color: $color-theme-dark;
+      }
+
+      &--calculate {
+        font: normal 400 16px/150% $font-family-notoSanJp;
+        color: $color-gray-600;
+      }
+    }
+
+    .payment_total {
+      display: flex;
+      justify-content: space-between;
+      grid-area: 10px;
+      border-top: 1px solid $color-gray-600;
+      padding: 24px 0;
+
+      &--calculate {
+        font: normal 700 20px/120% $font-family-notoSanJp;
+        color: $color-orange-500;
+      }
+    }
+
+    .text_agree {
+      background-color: $color-gray-200;
+      border-radius: 4px;
+      padding: 16px;
+
+      &--title {
+        font: normal 500 16px/120% $font-family-notoSanJp;
+        color: $color-black;
+        margin-bottom: 5px;
+      }
+
+      &--content {
+        font: normal 400 16px/150% $font-family-notoSanJp;
+        color: $color-theme-secondary;
+
+        .text_color {
+          color: $color-orange-500;
+        }
+      }
+    }
+  }
+
+  &--left {
+    .md-detail-food {
+      font: normal 400 14px/150% $font-family-notoSanJp;
+      color: $color-orange-500;
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.reservation_date {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  align-items: flex-start;
+
+  &--time {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    align-items: flex-start;
+  }
+}
+
+.reservationEndTime {
+  margin-top: 33px !important;
+}
+
+.customer {
+  display: grid;
+  grid-template-columns: auto 120px;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+.btn-customer-link {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-theme-primary;
+  color: $color-white;
+  border-radius: 4px;
+  border: 1px solid $color-theme-primary;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  img {
+    margin-bottom: 3px;
+  }
+
+  &:hover {
+    background-color: $color-theme-primary;
+    border-color: $color-theme-primary;
+    color: $color-blue-200;
+  }
+
+  &:active {
+    border-color: $color-theme-primary !important;
+  }
+}
+
+.special_food {
+  display: grid;
+  grid-template-columns: 200px auto;
+  border-radius: 8px;
+  border: 1px solid $color-gray-300;
+  background: $color-white;
+
+  &.none_grid {
+    grid-template-columns: auto;
+  }
+
+  &--left {
+    img {
+      max-width: 200px;
+      min-height: 140px;
+      border-radius: 8px 0 0 8px;
+    }
+  }
+
+  &--right {
+    padding: 16px;
+  }
+
+  &--title {
+    font: normal 500 16px/120% $font-family-notoSanJp;
+    color: $color-theme-dark;
+    @include three-dot(1, 100%);
+  }
+
+  &--desc {
+    font: normal 400 14px/150% $font-family-notoSanJp;
+    color: $color-theme-secondary;
+    padding-top: 0;
+    @include three-dot-not-width(2);
+    min-height: 43px;
+  }
+
+  &--price_link {
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    span {
+      font: normal 700 20px/120% $font-family-notoSanJp;
+      color: $color-theme-dark;
+    }
+  }
+}
+
+.sub_food {
+  &--list {
+    margin-top: 16px;
+  }
+
+  &--item {
+    margin-bottom: 8px;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: auto 31px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid $color-gray-300;
+    background: $color-white;
+
+    .item_right {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 4px;
+
+      img {
+        margin-top: 8px;
+      }
+    }
+
+    .item_left {
+      &--header {
+        display: grid;
+        grid-template-columns: auto 130px;
+        align-items: center;
+        gap: 10px;
+      }
+
+      &--title {
+        font: normal 500 16px/120% $font-family-notoSanJp;
+        color: $color-theme-dark;
+        @include three-dot(1, 100%);
+      }
+
+      &--number_people {
+        input {
+          min-height: 31px;
+        }
+      }
+
+      &--desc {
+        margin: 8px 0;
+        font: normal 400 14px/150% $font-family-notoSanJp;
+        color: $color-theme-secondary;
+        @include three-dot-not-width(2);
+      }
+
+      &--price {
+        font: normal 700 16px/150% $font-family-notoSanJp;
+        color: $color-theme-dark;
+      }
+    }
+  }
+}
+
+.calculate-number {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .number_detail {
+    &--placeholder {
+      font: normal 400 16px/150% $font-family-notoSanJp;
+      color: $color-gray-500;
+    }
+  }
+}
+
+.conductor_meals {
+  &--checkbox {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    height: 20px;
+    margin-bottom: 15px;
+    &_title {
+      font: normal 400 16px/150% $font-family-notoSanJp;
+      color: $color-theme-dark;
+    }
+
+    &_input {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+
+      input {
+        width: 20px;
+        height: 20px;
+      }
+
+      .input_item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+      }
+    }
+  }
+}
+.input_item_checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  input {
+    width: 20px;
+    height: 20px;
+  }
+}
+.paymentMethod {
+  align-items: center;
+}
+
+.paymentNotSuggest {
+  align-items: flex-end;
+}
+
+.text_warning {
+  color: $color-theme-danger;
+  font: normal 400 14px/150% $font-family-notoSanJp;
+}
+
+.btn_create_reservation {
+  display: grid;
+  grid-template-columns: 100px auto;
+  align-items: flex-end;
+  gap: 16px;
+
+  .btn_back_reservation {
+    padding: 8px 16px;
+    border-radius: 4.8px;
+    border: 1px solid $color-theme-primary;
+    background: var(--hit-box, rgba(255, 255, 255, 0));
+    color: $color-theme-primary;
+  }
+}

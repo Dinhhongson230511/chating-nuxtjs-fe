@@ -1,0 +1,66 @@
+@import "/assets/scss/common/mixin";
+
+.filter-search-tours {
+  display: grid;
+  grid-template-columns: 30% auto 58px;
+  gap: 30px;
+
+  .division {
+    select {
+      margin-top: 10px;
+    }
+  }
+
+  .date-time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    input {
+      margin-top: 8px;
+      min-width: 100%;
+    }
+
+    img {
+      margin: auto auto 25px auto;
+    }
+
+    svg {
+      margin-top: 5px;
+    }
+  }
+
+  .number_people {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    .input_people {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 5px;
+    }
+  }
+
+  .btn_submit {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+    .btn-search {
+      min-height: 38px;
+      width: fit-content;
+      padding: 6px 12px;
+      border-radius: 4px;
+      border: 1px solid $color-theme-primary;
+      background: var(--hit-box, rgba(255, 255, 255, 0));
+      color: $color-theme-primary;
+    }
+  }
+}
+
+.table_list {
+  margin-top: 16px;
+}

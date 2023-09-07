@@ -1,0 +1,71 @@
+{
+  "header": {
+    "title": "新規ご登録",
+    "description": {
+      "title": "パートナー施設様 新規ご登録について",
+      "partner_facility": "パートナー施設様",
+      "information": "ご登録いただく事で施設情報を投稿していただく為のページをご案内させていただきます。",
+      "not_fee_register": "登録料は頂いておりません。",
+      "receive_application": "お申込みいただいたのち、弊社担当から折り返しご連絡させていただきます。"
+    }
+  },
+  "input": {
+    "name": {
+      "title": "法人名",
+      "placeholder": "例：Retty株式会社"
+    },
+    "furigana_name": {
+      "title": "法人名フリガナ",
+      "placeholder": "例：レッチカブシキガイシャ"
+    },
+    "tel": {
+      "title": "電話番号",
+      "placeholder": "例：012-4567-8915"
+    },
+    "fax": {
+      "title": "FAX",
+      "placeholder": "例：012-4567-8915"
+    },
+    "post_code": {
+      "title": "郵便番号",
+      "placeholder": "例：012-3456"
+    },
+    "prefecture": {
+      "title": "都道府県"
+    },
+    "locality": {
+      "title": "市区郡"
+    },
+    "address_lines": {
+      "title": "町名番地以下"
+    },
+    "last_name": {
+      "title": "姓",
+      "placeholder": "例：鈴木"
+    },
+    "first_name": {
+      "title": "名",
+      "placeholder": "例：太郎"
+    },
+    "furigana_last_name": {
+      "title": "姓フリガナ",
+      "placeholder": "例：スズキ"
+    },
+    "furigana_first_name": {
+      "title": "名フリガナ",
+      "placeholder": "例：タロウ"
+    },
+    "manager_tel": {
+      "title": "電話番号",
+      "placeholder": "例：012-4567-8915"
+    },
+    "manager_fax": {
+      "title": "FAX",
+      "placeholder": "例：012-4567-8915"
+    },
+    "manager_email": {
+      "title": "メール",
+      "placeholder": "例：tarou{'@'}gmail.com"
+    }
+  }
+}

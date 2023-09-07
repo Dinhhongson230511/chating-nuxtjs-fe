@@ -1,0 +1,102 @@
+{
+  "delete": "削除",
+  "edit": "編集",
+  "cancel": "取り消し",
+  "mail_address": "メールアドレス",
+  "max_size_image": "ファイルが大きすぎます。10MB以下のファイルをアップロードしてください。",
+  "modal": {
+    "submit": {
+      "create": "登録",
+      "update": "保存"
+    },
+    "cancel": "キャンセル",
+    "delete": {
+      "title": "消去",
+      "content": "消去してもよろしいですか？",
+      "submit": "はい",
+      "cancel": "いいえ"
+    }
+  },
+  "sidebar": {
+    "favorite_store": "お気に入り店",
+    "current_reservation": "現在のご予約",
+    "reservation_list": "予約一覧",
+    "favorite_store_list": "お気に入り店舗",
+    "groups": "団体一覧",
+    "tours": "ツアー一覧",
+    "messages": "メッセージ一覧",
+    "about_list": "会社情報",
+    "accounts": "アカウント管理",
+    "change_password": "パスワード強制変更",
+    "setting_noti": "通知設定",
+    "logout": "ログアウト"
+  },
+  "header": {
+    "search": "店舗検索",
+    "one_mind_list": "気になる！リスト",
+    "customer": {
+      "placeholder": "団体から予約"
+    },
+    "account": "マイページ",
+    "inquiry": "問い合わせ",
+    "lang": {
+      "ja": "日本語",
+      "en": "EN"
+    }
+  },
+  "footer": {
+    "diameter_management": "径管理念",
+    "management_office": "運管店舖",
+    "company_profile": "会社概要",
+    "copyright": "Copyright (c) 2023 HARE CO.,LTD All Right Reserve",
+    "business_content": "事業内容"
+  },
+  "breadcrumb": {
+    "home": "マイページ",
+    "my_page": "団体一覧"
+  },
+  "card": {
+    "company": "企業情報",
+    "address": "住所",
+    "manager": "管理者情報"
+  },
+  "search": {
+    "title": "店舗から探す",
+    "placeholder": {
+      "area": "都道府県",
+      "date": "7月12日(水)",
+      "time": "1時",
+      "gerne": "料理ジャンル",
+      "category": "こだわり",
+      "key_word": "コース名、店舗名",
+      "count_people": "２名"
+    }
+  },
+  "people": "名",
+  "peopleMax": "人",
+  "yen": "円",
+  "empty": "結果がありません",
+  "show_food": "メニューをみる",
+  "food_types": {
+    "main": "メインコース",
+    "drink": "飲み放題",
+    "sub_food": "サブコース",
+    "add_request": "当日追加"
+  },
+  "dgMeals": {
+    "no": "無し",
+    "yes": "あり"
+  },
+  "day_of_week": {
+    "sun": "日",
+    "mon": "月",
+    "tue": "火",
+    "wed": "木",
+    "thu": "木",
+    "fri": "金",
+    "sat": "土"
+  },
+  "see_more": "もっと見る",
+  "year_text": "年",
+  "email": "example{'@'}example.com"
+}

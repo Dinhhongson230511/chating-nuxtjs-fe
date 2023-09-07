@@ -1,0 +1,56 @@
+{
+  "title_register": "新規ご登録",
+  "update": {
+    "title": "情報編集"
+  },
+  "detail": {
+    "title": "情報"
+  },
+  "cancel": "規約への同意",
+  "register": "登録",
+  "edit": "保存する",
+  "search_post_code": "住所検索",
+  "common": {
+    "info": {
+      "title": "旅行会社情報",
+      "name": "旅行会社名",
+      "name_of_person": "担当者名",
+      "tel": "担当者TEL",
+      "project_start_date": "案件開始日"
+    },
+    "card_title": "企業情報",
+    "breadcrumb": "マイページ"
+  },
+  "travel": {
+    "name": "旅行会社名",
+    "furigana_name": "旅行会社フリガナ",
+    "tel": "電話番号",
+    "fax": "FAX",
+    "post_code": "郵便番号",
+    "prefecture": "都道府県",
+    "locality": "市区郡",
+    "address_lines": "町名番地以下",
+    "last_name": "姓",
+    "first_name": "名",
+    "furigana_last_name": "姓フリガナ",
+    "furigana_first_name": "名フリガナ",
+    "email": "メール",
+    "bank_name": "振込先銀行",
+    "bank_account_number": "口座番号",
+    "bank_account_name": "名義",
+    "bank_account_name_kana": "名義カナ",
+    "placeholder": {
+      "name": "例：Retty株式会社 ",
+      "furigana_name": "例：レッチカブシキガイシャ",
+      "tel": "例：012-4567-8915",
+      "fax": "例：012-4567-8915",
+      "last_name": "例：鈴木",
+      "first_name": "例：太郎",
+      "furigana_last_name": "例：スズキ",
+      "furigana_first_name": "例：タロウ",
+      "email": "例：tarou{'@'}gmail.com",
+      "post_code": "例：012-4567"
+    }
+  },
+  "messages_not_found_post_code": "郵便番号が正しくありません。"
+}

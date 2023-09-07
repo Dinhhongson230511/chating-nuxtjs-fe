@@ -1,0 +1,93 @@
+@import "/assets/scss/common/mixin";
+
+.combo__food {
+  &-item {
+    display: grid;
+    grid-template-columns: 250px auto;
+    border-radius: 8px;
+    border: 1px solid $color-gray-300;
+
+    &.none_grid {
+      grid-template-columns: auto !important;
+    }
+  }
+
+  &-item-img {
+    img {
+      border-radius: 8px 0 0 8px;
+    }
+  }
+
+  &--content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    &_title {
+      font: normal 500 16px/120% $font-family-notoSanJp;
+      color: $color-theme-dark;
+      @include three-dot-not-width(1);
+    }
+
+    &_desc {
+      font: normal 400 14px/150% $font-family-notoSanJp;
+      color: $color-theme-secondary;
+      padding-top: 0;
+      @include three-dot-not-width(2);
+      min-height: 43px;
+    }
+
+    &_price_link {
+      padding-top: 16px;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      span {
+        font: normal 700 20px/120% $font-family-notoSanJp;
+        color: $color-theme-dark;
+      }
+
+      a {
+        font: normal 400 14px/150% $font-family-notoSanJp;
+        color: $color-orange-500;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  &--bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .text {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .price {
+        color: $color-black;
+        font: normal 400 14px/150% $font-family-notoSanJp;
+      }
+
+      .fee {
+        color: $color-gray-900;
+        font: normal 500 20px/120% $font-family-notoSanJp;
+      }
+    }
+
+    .bottom-action {
+      width: 100%;
+
+      button {
+        float: right;
+      }
+    }
+  }
+}

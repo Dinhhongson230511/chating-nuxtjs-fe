@@ -1,0 +1,18 @@
+module.exports = {
+  apps: [
+    {
+      name: "partner-hare-fe",
+      port: "3000",
+      append_env_to_name: true,
+      instances: "1",
+      script: "./.output/server/index.mjs",
+      env: {
+        NODE_ENV: "",
+        NUXT_PUBLIC_API_BASE: "",
+        NUXT_PUBLIC_API_KEY_GOOGLE: "",
+        NUXT_PUBLIC_APP_WEBSOCKETS_KEY: "",
+        NUXT_PUBLIC_APP_WEBSOCKETS_SERVER= "",
+      },
+    },
+  ],
+};

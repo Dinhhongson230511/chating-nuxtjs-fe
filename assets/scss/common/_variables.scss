@@ -1,0 +1,89 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: "Nunito", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+$font-family-notoSanJp: "Noto Sans JP", sans-serif;
+$font-family-noto-sans-normal: "NotoSan-Regular", sans-serif;
+$font-family-noto-sans-medium: "NotoSan-Medium", sans-serif;
+$font-family-noto-sans-bold: "noto-sans-bold", sans-serif;
+$font-family-inter-normal: "Inter", normal;
+$font-family-hiragino-normal: "Hiragino UD Sans Std", normal;
+$font-family-hiragino-normal-w3: "Hiragino UD Sans Std W3", normal;
+
+// Color
+
+$color-white: #ffffff;
+$color-black: #000000;
+$color-theme-dark: #212529;
+$color-theme-secondary: #6c757d;
+$color-theme-primary: #0d6efd;
+$color-theme-danger: #dc3545;
+$color-theme-danger-background: #f8d7da;
+$color-theme-danger-text: #842029;
+$color-white-grey: #fbfbfb;
+
+$color-gray-100: #f8f9fa;
+$color-gray-200: #e9ecef;
+$color-gray-300: #dee2e6;
+$color-gray-400: #ced4da;
+$color-gray-500: #adb5bd;
+$color-gray-600: #6c757d;
+$color-gray-700: #495057;
+$color-gray-800: #343a40;
+$color-gray-900: #212529;
+
+$color-blue-25: #f5faff;
+$color-blue-50: #eff8ff;
+$color-blue-100: #e7f1ff;
+$color-blue-200: #b2ddff;
+$color-blue-300: #6ea8fe;
+$color-blue-400: #53b1fd;
+$color-blue-500: #0d6efd;
+$color-blue-600: #1570ef;
+$color-blue-700: #175cd3;
+$color-blue-800: #1849a9;
+$color-blue-900: #194185;
+
+$color-orange-25: #fff8f1;
+$color-orange-50: #fff2e5;
+$color-orange-100: #ffe7cc;
+$color-orange-200: #ffd09a;
+$color-orange-300: #feb867;
+$color-orange-400: #fea135;
+$color-orange-500: #fe8902;
+$color-orange-600: #cb6e02;
+$color-orange-700: #985201;
+$color-orange-800: #663701;
+$color-orange-900: #331b00;
+
+$color-hover-btn-slide: #fb6514;
+
+// Breakpoint
+$min-height: 769px;
+$max-height-768: 768px;
+$max-width-1280: 1280px;
+$max-width-1199: 1199px;
+$max-width-1099: 1099px;
+$max-width-991: 991px;
+$max-width-899: 899px;
+$max-width-tablet: 819px;
+$max-width-sp: 767px;
+$max-width-575: 575px;
+$max-width-425: 425px;
+$max-width-375: 374px;
+$max-width-320: 320px;
+
+$min-width-1400: 1400px;
+$min-width-1200: 1200px;
+$min-width-992: 992px;
+$min-width-pc: 820px;
+$min-width-tablet: 768px;
+$min-width-500: 500px;
+$min-width-460: 460px;
+$min-width-445: 445px;
+$min-width-429: 429px;
+$min-width-390: 375px;
+$min-width-321: 321px;

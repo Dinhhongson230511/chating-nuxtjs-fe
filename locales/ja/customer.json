@@ -1,0 +1,126 @@
+{
+  "header": {
+    "title": "団体一覧",
+    "btn": {
+      "unconfirmed": "未確定",
+      "confirmed": "確定",
+      "createCustomer": "団体登録"
+    }
+  },
+  "customer_info": {
+    "title": "お客様情報",
+    "input": {
+      "division": {
+        "label": "区分",
+        "placeholder": "区分を選択"
+      },
+      "organization_name": {
+        "label": "団体名",
+        "placeholder": "開始日時間"
+      },
+      "travel_period": {
+        "label": "日付",
+        "placeholder": "日付"
+      }
+    }
+  },
+  "people": {
+    "title": "人数",
+    "input": {
+      "adult": {
+        "label": "大人",
+        "placeholder": "1~999"
+      },
+      "child": {
+        "label": "小人",
+        "placeholder": "0~999"
+      },
+      "only_infant": {
+        "label": "席のみ幼児",
+        "placeholder": "0~999"
+      },
+      "course_number_of_people": "コース提供人数：",
+      "total_guest": "お客様合計人数：",
+      "number_tour_conductor": {
+        "label": "添乗員人数",
+        "placeholder": "0~999"
+      },
+      "d_g": {
+        "label": "D/G人数",
+        "placeholder": "0~999"
+      }
+    }
+  },
+  "common": {
+    "card_title": "旅行会社情報"
+  },
+  "filter": {
+    "keyword": {
+      "label": "キーワードから探す",
+      "placeholder": "団体名・担当名"
+    },
+    "date": {
+      "label": "日付"
+    },
+    "status": {
+      "label": "区分",
+      "placeholder": "洗濯してください"
+    },
+    "people": {
+      "label": "人数",
+      "placeholder": "0"
+    },
+    "btn": {
+      "search": "検索"
+    }
+  },
+  "table": {
+    "date": "団体登録日",
+    "name": "団体名",
+    "person_name": "担当者名",
+    "status": "確定/末確定",
+    "division": "区分",
+    "number_of_people": "人数",
+    "edit": "詳細",
+    "orders": "予約一覧",
+    "trash": "削除",
+    "btn": {
+      "detail": "詳細"
+    },
+    "empty": "結果がありません"
+  },
+  "modal": {
+    "title": {
+      "create": "団体登録",
+      "update": "団体情報編集"
+    },
+    "content": {
+      "delete": "このレコードを削除してもよろしいですか?"
+    }
+  },
+  "seat": {
+    "title": "席割/席札",
+    "input": {
+      "is_print": {
+        "label": "席割希望"
+      },
+      "name_company": {
+        "label": "団体名"
+      },
+      "people": {
+        "label": "人数",
+        "placeholder": "0~999"
+      },
+      "note": "フリーワード",
+      "preview": "席札",
+      "is_book": {
+        "label": "席札希望"
+      },
+      "number_group": "組数",
+      "note_seat": {
+        "placeholder": "備考欄を入力してください"
+      },
+      "total_guest": "合計"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@import "/assets/scss/common/mixin";
+
+.base_form {
+  padding: 30px 150px 30px 150px;
+
+  &--header {
+    text-align: center;
+  }
+  &--body {
+    background-color: $color-gray-100;
+    border: 1px solid $color-gray-300;
+    padding: 16px;
+    border-radius: 10px;
+  }
+}

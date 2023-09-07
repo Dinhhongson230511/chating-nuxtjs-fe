@@ -1,0 +1,33 @@
+{
+  "header": {
+    "title": "My account",
+    "title_account_list": "Account list",
+    "btn": {
+      "unconfirmed": "未確定",
+      "confirmed": "確定",
+      "create": "新規登録"
+    }
+  },
+  "account_info": {
+    "first_name": "姓",
+    "last_name": "名",
+    "furigana_first_name": "姓フリガナ",
+    "furigana_last_name": "名フリガナ",
+    "tel": "TEL",
+    "fax": "FAX",
+    "email": "メール"
+  },
+  "filter": {
+    "keyword": {
+      "label": "キーワードから探す",
+      "placeholder": "担当者名・メール・電話番号"
+    }
+  },
+  "table": {
+    "name": "団体名",
+    "email": "メースアドレス",
+    "phone": "電話番号",
+    "edit": "編集",
+    "delete": "削除"
+  }
+}

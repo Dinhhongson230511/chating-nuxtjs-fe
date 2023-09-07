@@ -1,0 +1,680 @@
+@import "/assets/scss/common/mixin";
+
+.section-banner-search {
+  position: relative;
+  z-index: 2;
+}
+
+.section_search {
+  padding: 21px 30px 23px 30px;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+}
+
+.z-index-9 {
+  z-index: 9;
+}
+
+.box_search {
+  background: $color-white;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 12px;
+  width: 80%;
+
+  label {
+    font: 400 16px/24px $font-family-notoSanJp;
+  }
+
+  .form_search {
+    border-radius: 5px;
+    margin: 0;
+    position: relative;
+    width: 100%;
+
+    .datepicker {
+      margin-top: 0 !important;
+    }
+
+    .modal-show-filter {
+      top: 50px;
+    }
+
+    .filter-option {
+      color: $color-gray-600;
+      cursor: pointer;
+    }
+  }
+
+  .btn-search {
+    border-radius: 0 5px 5px 0;
+    height: 48px;
+  }
+
+  .select-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+      padding: 12px 16px;
+      border-left: 1px solid $color-gray-400;
+      background: $color-gray-200;
+    }
+
+    .form-select {
+      background-image: none;
+      padding: 0 0 0 8px;
+    }
+  }
+}
+
+.carousel__item {
+  position: relative;
+  width: 100%;
+
+  .image-carousel {
+    width: 100%;
+  }
+
+  div {
+    position: absolute;
+    font: 700 48px/58px $font-family-notoSanJp;
+    color: #fff;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.checkbox-search {
+  min-height: 16px;
+  width: 16px;
+  border-radius: 4px;
+}
+
+.gerne-title {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.gerne-title-middle {
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  border-radius: 10px;
+
+  .gerne-middle {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+    padding: 16px;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .gerne-title-minor {
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    border-radius: 4px;
+    margin-top: 8px;
+    display: none;
+
+    .gerne-minor-item {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+      padding: 8px 16px;
+
+      &:last-child {
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+.rangge-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.checkbox-range-filter {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.store_propose {
+  background-color: $color-gray-100;
+  padding: 30px 39px 30px 30px;
+  display: grid;
+  gap: 30px;
+  position: relative;
+
+  .tag-food {
+    max-height: 50px !important;
+  }
+
+  @include sp {
+    padding: 20px;
+  }
+
+  &--title {
+    font: normal 500 24px/120% $font-family-notoSanJp;
+  }
+
+  .carousel__slide {
+    padding: 0 10px;
+  }
+
+  .not-slide {
+    display: grid;
+    grid-template-columns: repeat(5, 18.18%) auto;
+    gap: 16px;
+  }
+
+  .navigation_custom {
+    .previous_custom,
+    .next_custom {
+      display: flex;
+      width: 38px;
+      height: 38px;
+      padding: 6px 12px;
+      justify-content: center;
+      align-items: center;
+      background-color: $color-theme-secondary;
+      border: 1px solid $color-theme-secondary;
+      border-radius: 0 4px 4px 0;
+
+      img {
+        width: 24px;
+        height: 24px;
+      }
+
+      &:hover {
+        border-radius: 0px 4px 4px 0px;
+        border: 1px solid $color-hover-btn-slide;
+        background: $color-orange-500;
+      }
+    }
+
+    .previous_custom {
+      position: absolute;
+      right: 25px;
+
+      @include pc {
+        position: absolute;
+        left: -40px;
+      }
+    }
+
+    .next_custom {
+      transform: rotate(180deg);
+      position: absolute;
+      right: -30px;
+
+      @include pc {
+        position: absolute;
+        right: -45px;
+      }
+    }
+  }
+}
+
+.slider_store {
+  width: 100%;
+  height: 100%;
+}
+
+.store_card_item {
+  width: fit-content;
+  height: fit-content;
+  border-radius: 8px !important;
+  background-color: $color-white !important;
+  width: 100%;
+  height: 100%;
+
+  &:hover {
+    position: relative;
+    z-index: 1;
+    box-shadow: 0px 16px 48px 0px rgba(0, 0, 0, 0.17);
+  }
+
+  .item-header {
+    position: relative;
+    max-height: 250px;
+    height: 210px;
+    width: 100%;
+
+    .image_top {
+      border-radius: 8px;
+      width: 100%;
+      height: 100%;
+    }
+
+    .parking {
+      display: flex;
+      gap: 2px;
+      align-items: center;
+      width: fit-content;
+      padding: 4px 6px;
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      background-color: $color-white;
+      border-radius: 4px 0px 0px 0px;
+
+      span {
+        font: normal 400 12px/18px $font-family-notoSanJp;
+        color: $color-theme-secondary;
+      }
+    }
+  }
+
+  .body {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100% - 210px); // 210px is the height of the image (.item-header .image_top)
+  }
+
+  .item-body {
+    display: grid;
+    gap: 10px;
+
+    &-title {
+      word-break: break-all;
+      font: normal 500 14px/17px $font-family-notoSanJp;
+      color: $color-gray-900;
+      text-align: start;
+      height: 40px;
+      @include three-dot-not-width(2);
+    }
+
+    .date_timte {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 5px;
+      height: 18px;
+
+      span {
+        font: normal 700 12px/12px $font-family-notoSanJp;
+        color: $color-gray-800;
+      }
+    }
+  }
+
+  .advanced_reservation {
+    height: 30px;
+    display: flex;
+    justify-content: flex-end;
+
+    a {
+      padding: 4px 8px;
+      border-radius: 3.2px;
+      background-color: $color-orange-100;
+      color: $color-orange-500;
+      text-decoration: none;
+    }
+  }
+}
+
+.max_people {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  &--detail {
+    span {
+      font: normal 400 12px/18px $font-family-notoSanJp;
+      color: $color-gray-800;
+
+      &:last-child {
+        font: normal 700 12px/12px $font-family-notoSanJp;
+      }
+    }
+  }
+}
+
+.tag-food {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  overflow: hidden;
+
+  span {
+    font: normal 700 12px/12px $font-family-notoSanJp !important;
+    color: $color-gray-600 !important;
+    border-radius: 4px;
+    border: 1px solid var(--gray-200, #e9ecef);
+    background: $color-white;
+    padding: 4px 6px;
+    height: fit-content !important;
+  }
+}
+
+.price {
+  height: 18px;
+
+  &.height-unset {
+    height: unset;
+  }
+
+  @include sp {
+    gap: 15px;
+  }
+
+  &-lunch,
+  &-night {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4px;
+
+    .title {
+      font: normal 400 12px/18px $font-family-notoSanJp;
+      color: $color-gray-800;
+      text-align: center;
+    }
+
+    .value {
+      font: normal 500 12px/12px $font-family-notoSanJp;
+      color: $color-black;
+    }
+  }
+}
+
+.advanced_reservation {
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+
+  a {
+    padding: 4px 8px;
+    border-radius: 3.2px;
+    background-color: $color-orange-100;
+    color: $color-orange-500;
+    text-decoration: none;
+  }
+
+  &:hover {
+    a {
+      background-color: $color-orange-200;
+      color: $color-orange-600;
+    }
+  }
+}
+
+.carousel__prev {
+  left: -25 !important;
+}
+
+.map_container {
+  display: grid;
+  background-color: $color-white;
+  height: 80vh;
+  overflow: hidden;
+
+  @include pc {
+    grid-template-columns: 375px auto;
+    transition: grid-template-columns 0.2s;
+  }
+
+  .list_store {
+    overflow: auto;
+
+    @include scrollbar-custom();
+  }
+
+  .map-store {
+    position: relative;
+
+    .toggle_list_store {
+      position: absolute;
+      top: 56px;
+      left: 0;
+      border-radius: 0 4px 4px 0;
+      border: 1px solid $color-orange-500;
+      width: 38px;
+      height: 38px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $color-orange-500;
+      cursor: pointer;
+    }
+  }
+}
+
+.close-list-store-map {
+  grid-template-columns: 0 auto;
+  transition: grid-template-columns 0.2s;
+}
+
+.store_item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-top: 1px solid $color-gray-300;
+  background: $color-white;
+
+  &--title {
+    word-break: break-all;
+    font: normal 500 14px/17px $font-family-notoSanJp;
+    color: $color-gray-900;
+    text-align: start;
+    margin-bottom: 10px;
+    @include three-dot-not-width(2);
+  }
+
+  &--body {
+    display: grid;
+    grid-template-columns: 100px auto;
+    gap: 10px;
+  }
+
+  .image_store {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    .parking {
+      display: flex;
+      gap: 2px;
+      justify-content: center;
+      align-items: center;
+      align-self: stretch;
+      margin-top: 4px;
+      white-space: nowrap;
+
+      img {
+        width: 14px;
+        height: 14px;
+      }
+
+      span {
+        font: normal 400 12px/18px $font-family-notoSanJp;
+        color: $color-theme-secondary;
+      }
+    }
+  }
+
+  &--content {
+    display: grid;
+    gap: 10px;
+
+    .date_timte {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 5px;
+      height: 18px;
+
+      span {
+        font: normal 700 12px/12px $font-family-notoSanJp;
+        color: $color-gray-800;
+      }
+    }
+
+    .tag-food {
+      max-height: 50px !important;
+    }
+  }
+}
+
+.list_store {
+  &--header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 30px;
+  }
+
+  .position-map-btn {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+  }
+
+  &--note {
+    display: flex;
+    align-items: center;
+
+    span {
+      font: 400 14px/14px $color-black;
+      margin-left: 4px;
+    }
+
+    .circle-note {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+    }
+
+    .bg-color-gray {
+      background-color: $color-gray-600;
+    }
+
+    .bg-color-orange {
+      background-color: $color-orange-500;
+    }
+  }
+
+  &--tabs {
+    margin-right: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+    border-radius: 100px;
+    background-color: $color-white;
+  }
+
+  &--item-tabs {
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    background-color: $color-white;
+
+    .tour-list {
+      filter: invert(99%) sepia(100%) saturate(1%) hue-rotate(250deg)
+        brightness(107%) contrast(100%);
+    }
+
+    img {
+      width: 14px;
+      height: 14px;
+      margin-right: 4px;
+    }
+  }
+
+  .color-tabs-orange {
+    background-color: $color-orange-500;
+    color: $color-white;
+  }
+}
+
+.list_store--main {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 74px;
+}
+
+.data-sub-area {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.active_store {
+  border-top: 1px solid var(--gray-300, #dee2e6);
+  border-bottom: 1px solid var(--gray-300, #dee2e6);
+  background: var(--orange-100, #fff0de);
+}
+
+.store_not_found {
+  min-height: 100px;
+  justify-content: center;
+  margin: 0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font: normal 400 14px/22px $font-family-notoSanJp;
+  color: $color-theme-secondary;
+}
+
+// carousel
+.carousel__pagination {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 160px;
+}
+
+.carousel__pagination-button {
+  display: block;
+  border: 0;
+  margin: 0;
+  cursor: pointer;
+  padding: 4px;
+  background: transparent;
+}
+
+.carousel__pagination-button::after {
+  display: block;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  border: 1px solid $color-white;
+  background-color: unset;
+}
+
+.carousel__pagination-button:hover::after,
+.carousel__pagination-button--active::after {
+  background-color: $color-white;
+}
+
+.pl-40 {
+  padding-left: 40px;
+}
+
+.paginate_list_store {
+  margin: 30px 0;
+  .paginate {
+    justify-content: center;
+  }
+}

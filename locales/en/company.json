@@ -1,0 +1,74 @@
+{
+  "header": {
+    "title": "新規ご登録",
+    "description": {
+      "title": "パートナー施設様 新規ご登録について",
+      "partner_facility": "パートナー施設様",
+      "information": "ご登録いただく事で施設情報を投稿していただく為のページをご案内させていただきます。",
+      "not_fee_register": "登録料は頂いておりません。",
+      "receive_application": "お申込みいただいたのち、弊社担当から折り返しご連絡させていただきます。"
+    }
+  },
+  "input": {
+    "name": {
+      "title": "法人名",
+      "placeholder": "Retty会社"
+    },
+    "furigana_name": {
+      "title": "法人名フリガナ",
+      "placeholder": "レッチガイシャ"
+    },
+    "tel": {
+      "title": "TEL",
+      "placeholder": "0123-4567-891"
+    },
+    "fax": {
+      "title": "FAX",
+      "placeholder": "0123-4567-891"
+    },
+    "post_code": {
+      "title": "郵便番号",
+      "placeholder": "012-3456"
+    },
+    "prefecture": {
+      "title": "都道府県",
+      "placeholder": "東京都"
+    },
+    "locality": {
+      "title": "市区郡",
+      "placeholder": "千代田区"
+    },
+    "address_lines": {
+      "title": "町名番地以下",
+      "placeholder": "永田町1丁目7-1"
+    },
+    "last_name": {
+      "title": "姓",
+      "placeholder": "鈴木"
+    },
+    "first_name": {
+      "title": "名",
+      "placeholder": "太郎"
+    },
+    "furigana_last_name": {
+      "title": "姓フリガナ",
+      "placeholder": "ヤマダ"
+    },
+    "furigana_first_name": {
+      "title": "名フリガナ",
+      "placeholder": "タロウ"
+    },
+    "manager_tel": {
+      "title": "管理者TEL",
+      "placeholder": "0123-4567-891"
+    },
+    "manager_fax": {
+      "title": "管理者FAX",
+      "placeholder": "0123-4567-89"
+    },
+    "manager_email": {
+      "title": "管理者Email",
+      "placeholder": "tarou{'@'}gmail.com"
+    }
+  }
+}

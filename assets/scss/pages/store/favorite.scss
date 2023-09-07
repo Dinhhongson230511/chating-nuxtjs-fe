@@ -1,0 +1,98 @@
+@import "/assets/scss/common/mixin";
+
+.header_right {
+  width: 60%;
+
+  .checkbox-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .checkbox-favorite {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.checkbox-search {
+  min-height: 16px;
+  width: 16px;
+  border-radius: 4px;
+}
+
+.modal-area {
+  position: absolute;
+  width: 100%;
+  top: 46px;
+  display: none;
+}
+
+.card__review {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid $color-gray-300;
+
+  &--header {
+    display: flex;
+    padding: 10px 16px;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    justify-content: space-between;
+    background: $color-gray-100;
+    border-bottom: 1px solid $color-gray-300;
+    border-radius: 8px 8px 0 0;
+
+    .header-icon {
+      display: flex;
+      align-items: center;
+
+      div {
+        margin-right: 16px;
+      }
+
+      img {
+        margin-right: 4px;
+      }
+    }
+
+    .view-all {
+      color: $color-orange-500;
+      font: normal 400 14px/21px $font-family-notoSanJp;
+    }
+  }
+
+  &--item {
+    border-bottom: 1px solid $color-gray-300;
+    padding: 8px 16px;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    .info-member {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      color: $color-gray-600;
+      font: normal 400 12px/18px $font-family-notoSanJp;
+      margin-bottom: 4px;
+
+      span {
+        margin-left: 4px;
+      }
+    }
+
+    .box-time {
+      color: $color-gray-500;
+      font: normal 400 10px/18px $font-family-notoSanJp;
+    }
+
+    .text-content {
+      font: normal 400 14px/21px $font-family-notoSanJp;
+      @include three-dot-not-width(3);
+    }
+  }
+}

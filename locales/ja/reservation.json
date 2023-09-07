@@ -1,0 +1,72 @@
+{
+  "title": "予約一覧",
+  "breadcrumb_page": "予約一覧",
+  "btn_create": "ツアー登録",
+  "btn_search": "検索",
+  "tags": {
+    "requesting": "リクエスト中",
+    "confirmed_reservation": "確定予約",
+    "completion": "完了",
+    "cancel": "キャンセル済み"
+  },
+  "search": {
+    "reservation_period": "予約日",
+    "area": "エリア",
+    "people": "人数",
+    "unit_price": "コース単価",
+    "key_word": "キーワードから探す"
+  },
+  "placeholder": {
+    "reservation_period": "予約日",
+    "people": "0",
+    "area": "エリア",
+    "unit_price": "単価",
+    "key_word": "団体名・店舗名・コース名",
+    "min_people": "人数"
+  },
+  "table": {
+    "date_time": "予約日時",
+    "name_organization": "団体名",
+    "max_people": "人数",
+    "store_name": "店舗名",
+    "area": "エリア",
+    "combo_name": "コース名",
+    "unit_price": "コース単価",
+    "detail": "詳細",
+    "detail_reservation": "予約詳細",
+    "stutus": "ステータス"
+  },
+  "modal": {
+    "create": "予約追加"
+  },
+  "payments": {
+    "invoice": "請求書",
+    "advance_transfer": "前振込",
+    "cp_invoice_issued": "CP（後日発券）＝請求書発行",
+    "cp_bring_on_the_day": "CP（当日持参）",
+    "cash": "現金",
+    "cp_ticket_at_a_later_date": "CP（後日発券）",
+    "jtbAUnit": "JTB（Aユニット）",
+    "kinki_nippon_tourist": "近畿日本ツーリスト",
+    "tobu_top_tours": "東武トップツアーズ",
+    "yomiuri_trip": "読売旅行",
+    "meitetsu_sightseeing": "名鉄観光",
+    "hankyu_travel_international": "阪急交通社",
+    "agricultural_cooperative_tourism": "農協観光",
+    "t_life": "T-LIFE",
+    "cash_fees_will_be_deducted_on_the_day": "現金（手数料当日差引）"
+  },
+  "create": {
+    "modal": {
+      "fee": "予算",
+      "dishes": "ジャンル",
+      "date": "受付可能日",
+      "hour": "受付可能時間",
+      "day": "受付可能曜日",
+      "people": "受け入れ可能人数",
+      "yen": "円",
+      "man": "名"
+    },
+    "list_old_reservations": "団体予約詳細"
+  }
+}

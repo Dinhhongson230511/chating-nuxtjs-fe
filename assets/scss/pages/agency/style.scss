@@ -1,0 +1,102 @@
+@import "/assets/scss/common/mixin";
+
+.register-travel {
+  padding: 30px 150px 30px 150px;
+  @include sp {
+    padding: unset;
+  }
+
+  &__title {
+    p {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  }
+
+  &__des {
+    background-color: #fff0de;
+    border-radius: 10px;
+    padding: 20px;
+
+    hr {
+      color: $color-orange-300;
+    }
+
+    &--title {
+      color: $color-orange-500;
+      font: 500 20px/24px $font-family-noto-sans-normal;
+    }
+
+    &--des {
+      color: $color-theme-dark;
+      font: 400 16px/24px $font-family-noto-sans-normal;
+
+      p {
+        margin-bottom: 4px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .agree-terms {
+    background-color: $color-gray-100;
+    border-radius: 10px;
+    padding: 16px 16px 0 16px;
+    margin-top: 30px;
+
+    .title_card {
+      margin-left: 10px;
+    }
+
+    &-content {
+      max-height: 150px;
+      overflow-x: auto;
+      overflow-y: scroll;
+      background-color: $color-white;
+      border-radius: 4px;
+      border: 1px solid $color-gray-400;
+      padding: 6px 12px;
+      font: 400 16px/24px $font-family-noto-sans-normal;
+
+      p {
+        margin-bottom: unset;
+      }
+    }
+  }
+
+  .card-agency {
+    margin-top: 20px;
+  }
+
+  .btn-cancel {
+    padding: 6px 12px;
+    font: normal 500 16px/30px $font-family-notoSanJp;
+  }
+
+  .btn-disabled {
+    background-color: $color-gray-400;
+    border: none;
+  }
+
+  .post-code-search {
+    position: absolute;
+    right: 1px;
+    height: 36px;
+    bottom: 17px;
+    border: none;
+    background-color: $color-orange-500;
+    border-radius: 0 4.8px 4.8px 0;
+    color: $color-white;
+
+    &:hover {
+      background-color: $color-orange-300;
+    }
+
+    &.code-error {
+      bottom: 42px;
+    }
+  }
+}

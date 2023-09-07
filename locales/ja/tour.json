@@ -1,0 +1,23 @@
+{
+  "title": "ツアー一覧",
+  "breadcrumb_page": "ツアー一覧",
+  "btn_create": "ツアー登録",
+  "btn_search": "検索",
+  "search": {
+    "member": "人数",
+    "key_word": "キーワードから探す"
+  },
+  "placeholder": {
+    "member": "人数",
+    "key_word": "ツアー名・担当者名"
+  },
+  "table": {
+    "name": "ツアー名",
+    "name_of_people_charge": "担当者名",
+    "number_revervations": "予約数",
+    "price": "単価(円)",
+    "max_people": "最大人数",
+    "booking_detail": "予約詳細",
+    "delete": "削除"
+  }
+}
